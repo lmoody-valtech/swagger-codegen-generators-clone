@@ -68,8 +68,9 @@ public class StaticHtmlNHSCodegen extends StaticHtml2Codegen implements CodegenC
         supportingFiles.add(new SupportingFile("assets/js/webfontloader.js", outputFolder + "/assets/js", "webfontloader.js"));
         supportingFiles.add(new SupportingFile("assets/js/marked.js", outputFolder + "/assets/js", "marked.js"));
         supportingFiles.add(new SupportingFile("assets/js/functions.js", outputFolder + "/assets/js", "functions.js"));
-
         supportingFiles.add(new SupportingFile("assets/css/bootstrap.css", outputFolder + "/assets/css", "bootstrap.css"));
+        supportingFiles.add(new SupportingFile("assets/css/schema.css", outputFolder + "/assets/css", "schema.css"));
+        supportingFiles.add(new SupportingFile("assets/css/bootstrap-tabs.css", outputFolder + "/assets/css", "bootstrap-tabs.css"));
         supportingFiles.add(new SupportingFile("assets/css/prettify.css", outputFolder + "/assets/css", "prettify.css"));
         supportingFiles.add(new SupportingFile("styles.mustache", outputFolder + "/assets/css", "styles.css"));
 
