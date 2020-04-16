@@ -86,6 +86,7 @@ public class StaticHtmlNHSCodegen extends StaticHtml2Codegen implements CodegenC
         return "htmlDocsNHS";
     }
 
+
     @Override
     public String getName() {
         return "htmlnhs";
